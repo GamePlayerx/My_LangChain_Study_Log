@@ -10,9 +10,9 @@ os.environ["LANGCHAIN_API_KEY"] = "你自己的LangSmith的api-key"
 
 # 1、创建模型
 llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
+    model="deepseek-chat",
     api_key="你自己的api-key",
-    openai_api_base="https://www.dmxapi.cn/v1"
+    openai_api_base="https://api.deepseek.com"
 )
 
 # 2、准备提示
