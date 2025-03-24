@@ -22,7 +22,7 @@ HOSTNAME = '127.0.0.1'
 PORT = 3306
 DATABASE = 'bootdo'
 USERNAME = 'root'
-PASSWORD = '1123581321'
+PASSWORD = '你的mysql的密码'
 # mysqlclient驱动URL
 MYSQL_URL = 'mysql+mysqldb://{}:{}@{}:{}/{}?charset=utf8mb4'.format(USERNAME, PASSWORD, HOSTNAME, PORT, DATABASE)
 
