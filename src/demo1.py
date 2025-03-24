@@ -5,8 +5,8 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
 
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_PROJECT"] = "LangchainRAGDemo"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_PROJECT"] = "LangchainDemo"
+os.environ["LANGCHAIN_API_KEY"] = "你自己的LangSmith的api-key"
 
 # 1、创建模型
 llm = ChatOpenAI(
