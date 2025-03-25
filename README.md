@@ -33,3 +33,5 @@
 * [LangChain使用RAG实现根据我们提供的内容回答问题](/src/demo6.py)
 * [LangChain使用链实现对mysql的问题提问，并返回值](/src/demo7.py)
 * [LangChain使用代理实现对mysql的问题提问，并返回值](/src/demo8.py)
+* [LangChain内容提取](/src/demo9.py)
+* [LangChain自动生成数据](/src/demo10.py)
