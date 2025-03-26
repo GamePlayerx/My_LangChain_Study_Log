@@ -24,6 +24,30 @@
 
 ![images/img4.png](images/img4.png)
 
+5、要下载的包
+
+```
+pip install langgraph
+
+pip install langchain
+
+pip install langserve
+
+pip install langchain_openai
+
+pip install langchain_core
+
+pip install langchain_community
+
+pip install langchain_chroma
+
+pip install langchain_text_splitters
+
+pip install pydantic
+
+pip install langchain_experimental
+```
+
 ### LangChain的实例
 * [LangChain的简单使用](/src/demo1.py)
 * [LangServe的使用](/src/demo2.py)
@@ -36,3 +60,6 @@
 * [LangChain内容提取](/src/demo9.py)
 * [LangChain自动生成数据](/src/demo10.py)
 * [LangChain实现文本分类](/src/demo11.py)
+* [LangChain文本自动摘要-Stuff方式(填充)](/src/demo12-1.py)
+* [LangChain文本自动摘要-Map-reduce方式(映射-归约)](/src/demo12-2.py)
+* [LangChain文本自动摘要-Refine方式(细化)](/src/demo12-3.py)
